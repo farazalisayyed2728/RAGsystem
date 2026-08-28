@@ -1,13 +1,138 @@
 {% load static %}
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAG SYSTEM</title>
-    <link rel = "stylesheet" href="{% static 'css/style.css' %}">
+
+```
+<title>RAG System</title>
+
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+```
+
 </head>
+
 <body>
-    <div class="div">Welcome to the RAG SYSTEM</div>
+
+```
+<header class="navbar">
+    <div class="logo">
+        <span>RAG</span> SYSTEM
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Documentation</a>
+    </nav>
+</header>
+
+
+<main class="hero">
+
+    <div class="hero-content">
+
+        <div class="badge">
+            AI • Retrieval • Generation
+        </div>
+
+        <h1>
+            Welcome to the
+            <span>RAG System</span>
+        </h1>
+
+        <p>
+            Retrieve relevant information from your knowledge base
+            and generate accurate, context-aware answers using
+            Retrieval-Augmented Generation.
+        </p>
+
+        <div class="buttons">
+            <a href="#" class="btn primary-btn">Get Started</a>
+            <a href="#" class="btn secondary-btn">Learn More</a>
+        </div>
+
+    </div>
+
+
+    <div class="rag-card">
+
+        <div class="card-header">
+            <span class="status-dot"></span>
+            RAG Pipeline
+        </div>
+
+        <div class="pipeline">
+
+            <div class="step">
+                <div class="step-icon">📄</div>
+                <div>
+                    <h3>Documents</h3>
+                    <p>Your knowledge base</p>
+                </div>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="step">
+                <div class="step-icon">🔍</div>
+                <div>
+                    <h3>Retrieval</h3>
+                    <p>Find relevant context</p>
+                </div>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="step">
+                <div class="step-icon">🤖</div>
+                <div>
+                    <h3>Generation</h3>
+                    <p>Generate the answer</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<section class="features">
+
+    <div class="feature-card">
+        <div class="feature-icon">🔎</div>
+        <h3>Smart Retrieval</h3>
+        <p>
+            Retrieve the most relevant information from your
+            stored documents.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">🧠</div>
+        <h3>Context Aware</h3>
+        <p>
+            Provide meaningful context to the AI before generating
+            a response.
+        </p>
+    </div>
+
+    <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>Fast Responses</h3>
+        <p>
+            Get accurate answers quickly using an efficient
+            retrieval pipeline.
+        </p>
+    </div>
+
+</section>
+```
+
 </body>
 </html>
